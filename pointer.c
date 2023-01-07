@@ -29,6 +29,10 @@ int main()
        dest_ptr++;
 
     }
+    printf("\nKaynak Dizim Kopyalandiktan Sonra:\n");
+    bastir(source_arr,n);
+    printf("\nVaris Dizim Kopyalandiktan Sonra:\n");
+    bastir(dest_arr,n);
 
     return 0;
 }
