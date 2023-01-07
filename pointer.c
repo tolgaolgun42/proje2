@@ -32,13 +32,3 @@ int main()
 
     return 0;
 }
-void bastir(int *arr,int n)
-{
-    int i;
-    printf("Degerlerim:\n");
-    for(i=0;i<n;i++)
-    {
-        printf("%4d",*arr);
-        arr++;
-    }
-}
